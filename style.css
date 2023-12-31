@@ -107,3 +107,6 @@
   font-family: "peyda";
   font-weight: 900;
 }
+.text-rtl {
+  direction: rtl;
+}
