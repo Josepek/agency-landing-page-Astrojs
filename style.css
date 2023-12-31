@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "peyda";
+  font-weight: 900;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-Black.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-Black.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-Black.woff2") format("woff2");
+
+  font-family: "peyda";
+  font-weight: 800;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-ExtraBold.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-ExtraBold.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-ExtraBold.woff2") format("woff2");
+
+  font-family: "peyda";
+  font-weight: 700;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-Bold.eot") format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-Bold.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-Bold.woff2") format("woff2");
+
+  font-family: "peyda";
+  font-weight: 600;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-SemiBold.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-SemiBold.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-SemiBold.woff2") format("woff2");
+
+  font-family: "peyda";
+  font-weight: 500;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-Medium.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-Medium.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-Medium.woff2") format("woff2");
+  font-family: "peyda";
+  font-weight: 400;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/PeydaWeb-Regular.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-Regular.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-Regular.woff2") format("woff2");
+  font-family: "peyda";
+  font-weight: 300;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/peydaWeb-light.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/peydaWeb-light.woff") format("woff"),
+    url("public/fonts/peyda/woff2/peydaWeb-light.woff2") format("woff2");
+  font-family: "peyda";
+  font-weight: 200;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/peydaWeb-extralight.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/peydaWeb-extralight.woff") format("woff"),
+    url("public/fonts/peyda/woff2/peydaWeb-extralight.woff2") format("woff2");
+  font-family: "peyda";
+  font-weight: 100;
+  src: local("peyda"),
+    url("/public/fonts/peyda/eot/peydaWeb-light.eot")
+      format("embedded-opentype"),
+    url("public/fonts/peyda/woff/PeydaWeb-Thin.woff") format("woff"),
+    url("public/fonts/peyda/woff2/PeydaWeb-Thin.woff2") format("woff2");
+}
+
+.font-thin {
+  font-family: "peyda";
+  font-weight: 100;
+}
+.font-extralight {
+  font-family: "peyda";
+  font-weight: 200;
+}
+.font-light {
+  font-family: "peyda";
+  font-weight: 300;
+}
+.font-regular {
+  font-family: "peyda";
+  font-weight: 400;
+}
+.font-medium {
+  font-family: "peyda";
+  font-weight: 500;
+}
+.font-semibold {
+  font-family: "peyda";
+  font-weight: 600;
+}
+.font-bold {
+  font-family: "peyda";
+  font-weight: 700;
+}
+.font-extrabold {
+  font-family: "peyda";
+  font-weight: 800;
+}
+.font-black {
+  font-family: "peyda";
+  font-weight: 900;
+}
