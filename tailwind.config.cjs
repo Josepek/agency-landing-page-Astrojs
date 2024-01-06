@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   darkMode: "class",
@@ -15,8 +16,9 @@ module.exports = {
         "heading-3": "rgb(var(--heading-3))",
       },
       fontFamily: {
+        sahel: ["sahel", "serif"],
         peyda: ["peyda", "san-serif"],
-        sahel: ["sahel", "san-serif"],
+        Anjoman: ["Anjoman", "tahoma"],
       },
       screens: {
         midmd: "880px",
