@@ -71,42 +71,81 @@
     url("public/fonts/peyda/woff2/PeydaWeb-Thin.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "sahel";
+  font-weight: 900;
+  src: local("sahel"),
+    url("public/fonts/sahel/Sahel-Black-FD.eot") format("embedded-opentype"),
+    url("public/fonts/sahel/Sahel-Black-FD.woff") format("woff"),
+    url("public/fonts/sahel/Sahel-Black-FD.woff2") format("woff2");
+
+  font-family: "sahel";
+  font-weight: 700;
+  src: local("sahel"),
+    url("public/fonts/sahel/Sahel-Bold-FD.eot") format("embedded-opentype"),
+    url("public/fonts/sahel/Sahel-Bold-FD.woff") format("woff"),
+    url("public/fonts/sahel/Sahel-Bold-FD.woff2") format("woff2");
+
+  font-family: "sahel";
+  font-weight: 600;
+  src: local("sahel"),
+    url("public/fonts/sahel/Sahel-SemiBold-FD.eot") format("embedded-opentype"),
+    url("public/fonts/sahel/Sahel-SemiBold-FD.woff") format("woff"),
+    url("public/fonts/sahel/Sahel-SemiBold-FD.woff2") format("woff2");
+
+  font-family: "sahel";
+  font-weight: 400;
+  src: local("sahel"),
+    url("public/fonts/sahel/Sahel-FD.eot") format("embedded-opentype"),
+    url("public/fonts/sahel/Sahel-FD.woff") format("woff"),
+    url("public/fonts/sahel/Sahel-FD.woff2") format("woff2");
+
+  font-family: "sahel";
+  font-weight: 300;
+  src: local("sahel"),
+    url("public/fonts/sahel/Sahel-Light-FD.eot") format("embedded-opentype"),
+    url("public/fonts/sahel/Sahel-Light-FD.woff") format("woff"),
+    url("public/fonts/sahel/Sahel-Light-FD.woff2") format("woff2");
+}
+
 .font-thin {
-  font-family: "peyda";
   font-weight: 100;
 }
 .font-extralight {
-  font-family: "peyda";
   font-weight: 200;
 }
 .font-light {
-  font-family: "peyda";
   font-weight: 300;
 }
 .font-regular {
-  font-family: "peyda";
   font-weight: 400;
 }
 .font-medium {
-  font-family: "peyda";
   font-weight: 500;
 }
 .font-semibold {
-  font-family: "peyda";
   font-weight: 600;
 }
 .font-bold {
-  font-family: "peyda";
   font-weight: 700;
 }
 .font-extrabold {
-  font-family: "peyda";
   font-weight: 800;
 }
 .font-black {
-  font-family: "peyda";
   font-weight: 900;
 }
 .text-rtl {
   direction: rtl;
+}
+.font-sahel {
+  font-family: "sahel";
+}
+.font-peyda {
+  font-family: "peyda";
+}
+
+.sahel-light {
+  font-family: "sahel";
+  font-weight: 300;
 }

@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         peyda: ["peyda", "san-serif"],
+        sahel: ["sahel", "san-serif"],
       },
       screens: {
         midmd: "880px",
