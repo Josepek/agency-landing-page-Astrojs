@@ -18,7 +18,7 @@ module.exports = {
       fontFamily: {
         sahel: ["sahel", "serif"],
         peyda: ["peyda", "san-serif"],
-        Anjoman: ["Anjoman", "tahoma"],
+        anjoman: ["anjoman", "san-serif"],
       },
       screens: {
         midmd: "880px",

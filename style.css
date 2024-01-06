@@ -109,34 +109,29 @@
 }
 
 @font-face {
-  font-family: "Anjoman";
+  font-family: "anjoman";
   font-weight: 300;
-  src: local("Anjoman"),
+  src: local("anjoman"),
     url("public/fonts/Anjoman/eot/Anjoman-FaNum-Light.eot")
       format("embedded-opentype"),
-    url("public/fonts/Anjoman/woff/anjoman.woff") format("woff"),
+    url("public/fonts/Anjoman/woff/Anjoman-FaNum-Light.woff") format("woff"),
     url("public/fonts/Anjoman/woff2/Anjoman-FaNum-Light.woff2") format("woff2");
 
-  font-family: "Anjoman";
+  font-family: "anjoman";
   font-weight: 500;
-  src: local("Anjoman"),
+  src: local("anjoman"),
     url("public/fonts/Anjoman/eot/Anjoman-FaNum-Regular.eot")
       format("embedded-opentype"),
     url("public/fonts/Anjoman/woff/Anjoman-FaNum-Regular.woff") format("woff"),
     url("public/fonts/Anjoman/woff2/Anjoman-FaNum-Regular.woff2")
       format("woff2");
-  font-family: "Anjoman";
+  font-family: "anjoman";
   font-weight: 700;
-  src: local("Anjoman"),
+  src: local("anjoman"),
     url("public/fonts/Anjoman/eot/Anjoman-FaNum-Bold.eot")
       format("embedded-opentype"),
     url("public/fonts/Anjoman/woff/Anjoman-FaNum-Bold.woff") format("woff"),
     url("public/fonts/Anjoman/woff2/Anjoman-FaNum-Bold.woff2") format("woff2");
-}
-
-.dir-right {
-  text-align: justify;
-  direction: rtl;
 }
 .font-sahel {
   font-family: "sahel";
@@ -144,8 +139,8 @@
 .font-peyda {
   font-family: "peyda";
 }
-.font-Anjoman {
-  font-family: "Anjoman";
+.font-anjoman {
+  font-family: "anjoman";
 }
 .font-thin {
   font-weight: 100;

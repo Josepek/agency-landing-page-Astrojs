@@ -16,7 +16,7 @@ const getThemeStyle = (variant:"primary"|"secondary"|"thirdy"|"fourthy") => {
         return "bg-emerald-500 border-transparent relative after:bg-[#172554] hover:border-[#172554] rounded"
     }
     else if (variant === "fourthy"){
-        return "bg-rose-500 border-transparent relative after:bg-[#172554] hover:border-[#172554] rounded"
+        return "bg-teal-500 border-transparent relative after:bg-[#172554] hover:border-[#172554] rounded"
     }
     else {
         return "text-primary"
@@ -28,6 +28,9 @@ const getTextColor = (variant:"primary"|"secondary"|"thirdy") =>{
         return "text-white"
     }
     else if (variant === "thirdy"){
+        return "text-white"
+    }
+    else if (variant === "fourthy"){
         return "text-white"
     }
     return "text-primary"
