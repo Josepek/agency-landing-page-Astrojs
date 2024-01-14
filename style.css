@@ -3,6 +3,57 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "IRANSansWeb";
+  font-weight: 900;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb_Black.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb_Black.woff") format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb_Black.woff2") format("woff2");
+
+  font-family: "IRANSansWeb";
+  font-weight: 700;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb_Bold.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb_Bold.woff") format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb_Bold.woff2") format("woff2");
+
+  font-family: "IRANSansWeb";
+  font-weight: 500;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb_Black.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb_Medium.woff") format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb_Medium.woff2") format("woff2");
+
+  font-family: "IRANSansWeb";
+  font-weight: 400;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb.woff") format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb.woff2") format("woff2");
+
+  font-family: "IRANSansWeb";
+  font-weight: 300;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb_Light.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb_Light.woff") format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb_Light.woff2") format("woff2");
+
+  font-family: "IRANSansWeb";
+  font-weight: 200;
+  src: local("IRANSansWeb"),
+    url("/public/fonts/IRANSans/eot/IRANSansWeb_UltraLight.eot")
+      format("embedded-opentype"),
+    url("/public/fonts/IRANSans/woff/IRANSansWeb_UltraLight.woff")
+      format("woff"),
+    url("/public/fonts/IRANSans/woff2/IRANSansWeb_UltraLight.woff2")
+      format("woff2");
+}
+@font-face {
   font-family: "peyda";
   font-weight: 900;
   src: local("peyda"),
@@ -132,6 +183,9 @@
       format("embedded-opentype"),
     url("public/fonts/Anjoman/woff/Anjoman-FaNum-Bold.woff") format("woff"),
     url("public/fonts/Anjoman/woff2/Anjoman-FaNum-Bold.woff2") format("woff2");
+}
+.dir-right {
+  direction: rtl;
 }
 .font-sahel {
   font-family: "sahel";

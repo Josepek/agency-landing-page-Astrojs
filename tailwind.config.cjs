@@ -16,9 +16,9 @@ module.exports = {
         "heading-3": "rgb(var(--heading-3))",
       },
       fontFamily: {
+        IRANSansWeb: ["IRANSansWeb", "serif"],
         sahel: ["sahel", "serif"],
         peyda: ["peyda", "san-serif"],
-        anjoman: ["anjoman", "san-serif"],
       },
       screens: {
         midmd: "880px",
